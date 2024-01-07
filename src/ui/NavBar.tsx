@@ -69,7 +69,8 @@ export default function NavBar() {
                     </Transition>
                 </Listbox>
 
-                <Link data-tooltip-id="githubId"
+                <Link 
+                    data-tooltip-id="githubId"
                     data-tooltip-content="GitHub Repo"
                     data-tooltip-place="bottom" 
                     href="https://github.com/DenisSkendaj/Dev-Type"
