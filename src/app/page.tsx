@@ -42,7 +42,7 @@ export default function Home() {
   //Hydration error (NextJS...)
   if (isClient){
     return (
-      <ThemeProvider themes={['blue', 'purple', "green", "pink", "dark", "light"]} enableSystem={false} defaultTheme='dark' attribute="data-theme">
+      <ThemeProvider themes={['blue', 'purple', "green", "dark", "light"]} enableSystem={false} defaultTheme='dark' attribute="data-theme">
         <div id='main' className='w-full h-full'>
           <NavBar />
           <div className='my-8 flex justify-center items-center'>
@@ -82,7 +82,7 @@ export default function Home() {
   }
   else{
     return (
-      <ThemeProvider themes={['blue', 'purple', "green", "pink", "dark", "light"]} enableSystem={false} defaultTheme='dark' attribute="data-theme">
+      <ThemeProvider themes={['blue', 'purple', "green", "dark", "light"]} enableSystem={false} defaultTheme='dark' attribute="data-theme">
         <div className='w-full h-[100vh] bg-[var(--background)] text-[var(--accent)]'>
           <div className='flex justify-center items-center w-full h-full'>
             <p>Loading...</p>

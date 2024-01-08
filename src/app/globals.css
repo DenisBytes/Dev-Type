@@ -23,12 +23,6 @@
   --accent: #b6bcc7;
 }
 
-[data-theme = "pink"]{
-  --background: #C72893;
-  --darker-background: #8a0a5a;
-  --text-color: #FFCBF4;
-  --accent: #0d0b07;
-}
 
 [data-theme = "purple"]{
   --background: #740b7a;

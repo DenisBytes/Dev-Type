@@ -27,13 +27,6 @@ export function useThemeCustom () {
             accent: "#b6bcc7",
         },
         {
-            themeName: "pink",
-            background: "#C72893",
-            darkerBackground: "#8a0a5a",
-            text: "#FFCBF4",
-            accent: "#0d0b07",
-        },
-        {
             themeName: "purple",
             background: "#740b7a",
             darkerBackground: "#8a0a5a",
