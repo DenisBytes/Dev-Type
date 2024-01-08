@@ -5,7 +5,7 @@ type WordContainerProps = {
   word: string;
 };
 
-const WordContainer = ({ word }: WordContainerProps) => {
+export default function WordContainer ({ word }: WordContainerProps) {
   const characters = useMemo(() => {
     return word.split('');
   }, [word]);
@@ -19,4 +19,3 @@ const WordContainer = ({ word }: WordContainerProps) => {
   );
 };
 
-export default WordContainer;

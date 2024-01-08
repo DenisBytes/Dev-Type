@@ -7,7 +7,7 @@ type UserTypedProps = {
     word: string;
 };
 
-const UserTyped = ({ check, charTyped, word }: UserTypedProps) => {
+export default function UserTyped ({ check, charTyped, word }: UserTypedProps)  {
     const characters = useMemo(() => {
         return charTyped.split('');
     }, [charTyped]);
@@ -27,5 +27,3 @@ const UserTyped = ({ check, charTyped, word }: UserTypedProps) => {
         </div>
     );
 };
-
-export default UserTyped;

@@ -8,7 +8,7 @@ type TooltipProps = {
     children: React.ReactNode;
 };
 
-const Tooltip = ({tooltipId,children,delayHide,delayShow}: TooltipProps) => {
+export default function Tooltip  ({tooltipId,children,delayHide,delayShow}: TooltipProps) {
     return (
         <>
             {children}
@@ -21,5 +21,3 @@ const Tooltip = ({tooltipId,children,delayHide,delayShow}: TooltipProps) => {
         </>
     );
 };
-
-export default Tooltip;

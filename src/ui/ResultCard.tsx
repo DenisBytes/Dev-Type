@@ -8,7 +8,7 @@ type ResultCardProps = {
     results: string;
 };
 
-const ResultCard = ({title,tooltipId,tooltipContent,tooltipPlace,results}: ResultCardProps) => {
+export default function ResultCard ({title,tooltipId,tooltipContent,tooltipPlace,results}: ResultCardProps) {
     return (
         <Tooltip tooltipId={tooltipId}>
             <div
@@ -27,5 +27,3 @@ const ResultCard = ({title,tooltipId,tooltipContent,tooltipPlace,results}: Resul
         </Tooltip>
     );
 };
-
-export default ResultCard;

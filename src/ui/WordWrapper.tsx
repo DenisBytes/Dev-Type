@@ -6,7 +6,7 @@ type WordWrapperProps = {
   setFocused: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const WordWrapper = ({ children, focused, setFocused }: WordWrapperProps) => {
+export default function WordWrapper ({ children, focused, setFocused }: WordWrapperProps) {
   return (
     <>
       <div
@@ -32,5 +32,3 @@ const WordWrapper = ({ children, focused, setFocused }: WordWrapperProps) => {
     </>
   );
 };
-
-export default WordWrapper;
