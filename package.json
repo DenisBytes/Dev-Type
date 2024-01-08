@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run install-force && next build",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "install-force": "npm install --force"
+    "lint": "next lint"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
