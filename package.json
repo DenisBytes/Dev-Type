@@ -18,8 +18,7 @@
     "react-dom": "^18",
     "react-icons": "^4.12.0",
     "react-modal": "^3.16.1",
-    "react-tooltip": "^5.25.1",
-    "use-react-screenshot": "^3.0.0"
+    "react-tooltip": "^5.25.1"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
