@@ -6,18 +6,18 @@ export function useThemeCustom () {
     const { theme, setTheme } = useTheme();
     const themesList = useMemo(() => ([
         {
-            themeName: "light",
-            background: "#fefeff",
-            darkerBackground: "#f5f5f5bf",
-            text: "#0454fc",
-            accent: "#b4c9c9",
-        },
-        {
             themeName: "dark",
             background: "#0d0b07",
             darkerBackground: "#3a362f",
             text: "#cdbc9b",
             accent: "#d49d2f",
+        },
+        {
+            themeName: "light",
+            background: "#fefeff",
+            darkerBackground: "#f5f5f5bf",
+            text: "#0454fc",
+            accent: "#b4c9c9",
         },
         {
             themeName: "blue",

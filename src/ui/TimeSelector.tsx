@@ -1,6 +1,6 @@
 "use client"
 
-export default function TimeSelector({time, setTime, restart, setLocalStorage}: {time: number, setTime: (time: number) => void, restart: () => void, setLocalStorage: () => void}) {
+export default function TimeSelector({time, setTime, restart, setLocalStorage}: {time: number, setTime: (time: number) => void, restart: () => void, setLocalStorage: (key: string, value: number) => void}) {
     return (
         <div className='flex gap-4 rounded-lg bg-[var(--darker-background)] px-4 py-2'>
             <span 

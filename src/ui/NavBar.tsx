@@ -18,7 +18,7 @@ export default function NavBar() {
                 <h1
                     className={`text-2xl text-[var(--accent)] font-bold hover:underline sm:text-4xl`}
                 >
-                    OpenType.
+                    DevType.
                 </h1>
             </span>
             <div className='flex items-center justify-between'>
