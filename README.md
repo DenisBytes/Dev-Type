@@ -1,6 +1,6 @@
 # Dev-Type - Typing Speed Test Platform
 
-Welcome to Dev-Type, a Next.js project designed to hone your typing skills through engaging and dynamic exercises. Similar to well-known platforms like MonkeyType, Dev-Type provides a sleek and interactive environment for users to test their typing speed with carefully crafted challenges.
+Website where you can test your spped in typing random words.
 
 ## URL
 
